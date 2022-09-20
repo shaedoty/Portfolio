@@ -1,0 +1,114 @@
+body {
+  background-color: #3c3b39;
+} /* background color of body of web page */
+ 
+.pageContainer {
+  width: 700px;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+  background-color: #F6F8FF;
+} /* format layout of page*/
+
+main{ /* format layout and background color of main container*/
+ 
+  background: #400406;
+  height: 1260px;
+}
+
+img{ /* image size and placement */
+  width:200px;
+  padding: 30px;
+  
+}
+
+div { /* div container format */
+margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+
+}
+
+.image-circle{ /* image rounded edges */
+  border-radius: 50%;
+}
+
+header{ /* header container color and size */
+  background-color: #302F4D;
+  height: 250px;
+}
+
+h1{ /* h1 text format */
+  font-size: 50px;
+   margin: 0px;
+  padding-top: 65px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+h2{ /* font size*/
+  font-size:20px;
+
+}
+
+h3{/* h3 placement */
+  text-align: center;
+}
+
+
+h1, h2 { /* h1 and h2 common format details */
+  font-family: Georgia;
+  color:#F6F8FF;
+  text-align: center;
+}
+
+
+article { /* article container format and style*/
+background-color: #F6F8FF;
+padding: 5px 5px 5px 0px;
+  border-radius: 30px;
+  width: 250px;
+  }
+
+  
+
+.list-inside li { /* put bullets of unordered list inside container*/
+  list-style-position: inside;
+  }
+
+
+hr{ /* horizontal rule style and placement*/
+ height: 4px;
+  background-color: #F6F8FF;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 600px
+}
+
+section{ /* scetion style and placement */
+  background-color: #F6F8FF;
+padding: 10px 10px 10px 20px;
+  border-radius: 30px;
+  width: 500px;
+  margin: 90px 
+  
+  }
+.contact{ /* format placement of section container with contact info */
+  width: 250px;
+  margin-left: 220px;
+}
+
+
+a { /* pseudo class selector style and colors */
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+a:link    { color: black;  }
+a:visited { color: #302F4D;}
+a:hover   { color: #868886; }
+a:active  { color: #e9e2e3;  }
+
+footer{ /* footer color and size*/
+    background-color: #302F4D;
+  height: 100px;
+}
