@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"> <!-- shows language used on page -- >
 <head> <!-- all important info for web browsers and search engines related to webpage -->
   <!-- meta tags related to data within web page -->
   <meta charset="utf-8">
@@ -15,70 +15,70 @@
    <!--Link normalize.css so that all HTML elements to display consistently across all supported web browsers. -->
   <link href="style.css" rel="stylesheet" type="text/css" />
    <!--connect the external style.css file with the html web page -->
-</head>
+</head> <!-- Close Head -->
 
 <body>
-  <div class="pageContainer">  <!-- sets format for web page -->
+  <div class="pageContainer">  <!-- create div container that sets format for web page -->
   <header>  <!-- identifies web page topic and content -->
-  <h1> <!-- main title -->
+  <h1> <!-- main title, keep within header -->
     Shae Doty
   </h1>
      <h2>
-      Thinkful Student
+      Thinkful Student <!-- secondary title, keep within header -->
     </h2>
-</header>
+</header>  <!-- close header -->
 
   <main>   <!-- groups together main content of web -->
-    <div>
-    <img src="images/profile-pic.jpeg" class= "image-circle" c>
-  <!-- Link profile picture-->
+    <div> <!-- create div container to be able to format profile picture and article container with intro info together more easily -->
+    <img src="images/profile-pic.jpeg" class= "image-circle" alt="profile picture">
+  <!-- Link profile picture to go at top of main container above text content-->
     <article>
       <h3>  <!-- Create intro with bullet points within a container-->
-        Intro
+        Intro <!-- heading of Intro section, <h3> used for level of title importance. Keep within article container  -->
       </h3>
-      <ul class="list-inside">
-      <li>Thinkful student</li>
-        <li>Software Engineering</li>
+      <ul class="list-inside"> <!-- create an unorderd list with bullet points. Use class="list-inside to put bullet points inside container to make more readable" -->
+      <li>Thinkful student</li> <!-- create four list items with basic into info-->
+        <li>Software Engineering</li> 
         <li>Full-time Immersion</li>
         <li>Located in Atlanta, Ga</li>
-      </ul>
+      </ul> <!-- end unordered list -->
      
-    </article>
-</div>
-        <hr> <!-- Create a content break with horizontal rule-->
+    </article> <!-- end article container holding Intro info -->
+</div>  <!-- close div container-->
+        <hr> <!-- create horizontal rule that makes a line to seperate sections of page-->
     <section>
-      <h3> <!-- Create About section -->
+      <h3> <!-- Create About section container with About title in <h3> heading for level of title importance -->
         About
-      </h3>
+      </h3> <!-- close about title heading and create a pharagraph that give info about you to place in section container-->
       <p>I graduated with a bachelors in Art with a minor in Art History and still enjoy doing projects in my spare time. Most recently I was employed as a pharmaceutical lab technician. Web development has always been something I've been interested in learning. Once I decided I wanted a career change, I took a few free online coding classes. After giving it a try, I realized I really enjoyed it and wanted to pursue it as a career. I'm very excited to learn more about web development and collaborate with others.</p>
-    </section>
+    </section> <!-- close paragraph and section container-->
 
-    <hr>
+    <hr> <!-- create horizontal rule that makes a line to seperate sections of page-->
 
 
-     <section class = contact>
-      <h3> <!-- Create contact section with own width -->
+     <section class = "contact"> <!-- Create another section with class="contact" to be able to format this container's width and placement individually within the css file  -->
+      <h3> <!-- Create heading Contact with <h3> for level of importance  -->
         Contact
-      </h3>
-      <p>Feel free to contact me at the links below:</p>
-       <ol> <!-- Link linkedin and github profiles within numbered list -->
+      </h3> <!-- Close Heading -->
+      <p>When I'm not practicing development I enjoy going on exploring and going on hikes. I also love going to museums and the movies. If you'd like to collaborate or just know a good hiking trail send me a message! Feel free to contact me at the links below:</p> <!-- create paragraoh within the  that lets user know that the below links are links to contact me, close paragraoh -->
+       <ol> <!-- Create ordered list with numbers to hold the  linkedIn and github profile links -->
          <li><a href="https://www.linkedin.com/in/shae-d-2542a9251/" target="_blank">LinkedIn</a></li>
          <li><a href="https://github.com/shaedoty" target="_blank">GitHub</a></li>
-        
+        <!-- use anchor tags to make clickable links to GitHub and LinkedIn profiles -->
        </ol>
-    </section>
+    </section> <!-- Close ordered list and section -->
     
     
-  </main>
+  </main> <!-- Close main container -->
 
     <footer>
-      <!--  create foooter -->
+      <!--  create foooter and close footer for visual element -->
     </footer>
   
 
 
-  </div>
-   <script src="script.js"></script>  <!-- add JavaScript content-->
-</body>
+  </div> <!-- Close div container  -->
+   <script src="script.js"></script>  <!-- add JavaScript content, easier to load if it is at the bottom -->
+</body> <!-- Close body -->
 
 </html>

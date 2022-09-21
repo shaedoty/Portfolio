@@ -12,7 +12,7 @@ body {
 main{ /* format layout and background color of main container*/
  
   background: #400406;
-  height: 1260px;
+  height: 1330px;
 }
 
 img{ /* image size and placement */
@@ -28,7 +28,7 @@ margin-left: auto;
 
 }
 
-.image-circle{ /* image rounded edges */
+.image-circle{ /* image rounded edges, was a square photo */
   border-radius: 50%;
 }
 
@@ -71,12 +71,12 @@ padding: 5px 5px 5px 0px;
 
   
 
-.list-inside li { /* put bullets of unordered list inside container*/
+.list-inside li { /* put bullets of unordered list inside container for Intro section */
   list-style-position: inside;
   }
 
 
-hr{ /* horizontal rule style and placement*/
+hr{ /* horizontal rule style and placement, lines to seperate sections of page*/
  height: 4px;
   background-color: #F6F8FF;
   margin-top: 80px;
@@ -84,7 +84,7 @@ hr{ /* horizontal rule style and placement*/
   width: 600px
 }
 
-section{ /* scetion style and placement */
+section{ /* scetion style and placement, for About and Contact sections */
   background-color: #F6F8FF;
 padding: 10px 10px 10px 20px;
   border-radius: 30px;
@@ -92,9 +92,9 @@ padding: 10px 10px 10px 20px;
   margin: 90px 
   
   }
-.contact{ /* format placement of section container with contact info */
-  width: 250px;
-  margin-left: 220px;
+.contact{ /* used in contact section to adjust placement and width without moving About section  */
+  width: 350px;
+  margin-left: 175px;
 }
 
 
@@ -103,10 +103,10 @@ a { /* pseudo class selector style and colors */
   font-size: 15px;
 }
 
-a:link    { color: black;  }
-a:visited { color: #302F4D;}
-a:hover   { color: #868886; }
-a:active  { color: #e9e2e3;  }
+a:link    { color: black;  } /* pseudo class selector color when link is not been visited and is not being clicked or hovered over */
+a:visited { color: #302F4D;}/* pseudo class selector color when a link has been visited */
+a:hover   { color: #868886; }/* pseudo class selector color when a link is being hovered over with the curser*/
+a:active  { color: #e9e2e3;  } /* pseudo class selector color when a link is being activly clicked*/
 
 footer{ /* footer color and size*/
     background-color: #302F4D;
